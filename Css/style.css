@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.mainsec{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.leftsec{
+    width: 50%;
+    height: 100vh;
+    background-image: url(../Images/twitter.jpg);
+    background-position: right;
+    background-size: cover;
+}
+.rightsec{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.homesec{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+.home{
+    margin-left: 130px;
+    width: 18.5%;
+    height: 100vh;
+    border-left: 1px gray solid;
+    
+}
+.midsec{
+    width: 34.5%;
+    height: 100vh;
+    border-left:1px gray solid;
+    border-right:1px gray solid;
+}
+.header{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.header h4{
+    color: white;
+    font-weight: bold;
+
+}
+.myspace{
+    display: flex;
+    outline:  none;
+    
+
+}
+.tweet{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+.profile_tweet{
+    background-image: url(../Images/pexels-nikhil-joseph-12232364.jpg);
+    text-align: center;
+    
+    padding-left: 2px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+}
+.lastsec{
+    width: 25%;
+    height: 100vh;
+    margin-right: 130px;
+}
+.btn{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px rgba(255, 254, 254, 0.703) solid;
+    padding-bottom: 20px;
+    font-weight: bold;
+    border-top: none;
+}
+.btn button{
+    border-radius: 20px;
+    padding-left:20px;
+    padding-right: 20px;
+    margin-right: 0;
+    margin-left: 310px;
+    
+}
+.twitter_icon{
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    width: 20px;
+}
